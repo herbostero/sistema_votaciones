@@ -1,0 +1,104 @@
+#wrapper {
+	margin: 0px auto; /* margen centrado en opx */
+	width: 860px; /* ancho total de la pagina */
+	border: 1px solid #c3c3c3;
+	/*borde- los valores se ponen con espacio en blanco */
+	height: auto;
+	/* alto total de la pagina (no es necesirio ya q lo hace auto) */
+	padding: 5px; /*distancias entre el borde y el relleno.(relleno)*/
+	font-family: verdana, arial, sans-serif; /*fuentes*/
+}
+
+header {
+	text-align: center; /*alineacion de texto*/
+	background-color: #333; /*color de fondo*/
+	padding-top: 5px; /*relleno superior.(arriba)*/
+	padding-rigth: 15px; /*relleno derecho*/
+	padding-bottom: 0px; /*relleno inferior(abajo)*/
+	padding-left: 15px; /*relleno izq.*/
+	/*en una sola linea, como las agujas del reloj. padding:5px 15px 0px 15px;*/
+	height: 120px;
+	color: #fff;
+}
+
+nav {
+	background-color: #f2f2f2;
+	width: 160px;
+	height: 450px;
+	float: left; /*indica que el elemento va a estar a la izq.*/
+}
+
+nav ul {
+	list-style-type: none;
+	/*saca los puntos item viñetas de la lista de navegacion*/
+	margin-left: -15px; /*tira el margen a la izq.*/
+}
+
+nav ul li a {
+	text-decoration: none; /*saca el subrayado de los item.*/
+	color: #333;
+	line-height: 30px /*distancia entre palabras del menu*/
+}
+
+nav ul li a:hover {
+	/*cambia el estilo de los menues al apoyar el putero.*/
+	text-decoration: underline;
+	color: #3c97e5;
+	
+}
+
+#main {
+	font-family: 'Lato', sans-serif;
+	background-color: #fff;
+	float: right;
+	width: 680px;
+	padding: 0px 10px 0px 10px;
+	height: 450px;
+}
+
+#main h1 {
+	font-size:20px;
+	}
+
+
+footer {
+	clear: both;
+	width: 860px;
+	background-color: #3b5f7f;
+	height: 50px;
+	padding: 5px 0 0px 0px;
+	text-align: center;
+}
+
+.destacado { /* span: divide un mismo parrafo para poder modificar su apariencia.*/
+	font-weight: bold;
+	
+}
+
+
+
+footer p {
+	font-size: 12px;
+	color: #fff;
+	
+} 
+
+.centrar{
+	display:block;/* utiliza la imagen como bloke (elemento en linea).*/
+	margin: 0px auto;
+}
+
+table{
+	width:400px;
+	height:auto;
+	border-collapse: collapse;
+}
+
+td,th{
+	border: 1px solid #eee;
+	background-color:#ccc;
+	
+}
+
+
+
